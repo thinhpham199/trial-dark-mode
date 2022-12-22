@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="./js/darkmode.js"></script>
+    <title>Halloween</title>
+</head>
+
+<body>
+    <!-- ------------Navigation bar-------------- -->
+    <div class="navigation-bar">
+        <a href="#form" class="navigation-bar__text">Find events</a>
+        <a href="#events" class="navigation-bar__text">Events</a>
+        <a href="#about-us" class="navigation-bar__text">About us</a>
+        <a href="#" class="navigation-bar__icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+    <!-- -------------------------- -->
+    <!-- -------------Header------------- -->
+    <div class="header">
+        <img src="./images/background.png" class="header__image">
+
+        <div class="header__text">
+            <h1>HALLOWEEN EVENTS</h1>
+            <p>
+                Grab your broomsticks for a ghoulishly great-value day out at our Halloween events taking place across
+                the country.
+            </p>
+            <p>
+                Need fiendish family fun to entertain your little monsters? Try our half-term Beano Halloween quests or
+                head out after dark on a spooky woodland walk.
+            </p>
+            <p>
+                We’ve planned activities for ghost-hunting grown-ups too. Gather your friends for an adults-only evening
+                tour of our spookiest historic places and uncover the darker side of history.
+            </p>
+        </div>
+    </div>
+    <!-- -------------------------- -->
+    <div class="main-content">
+        <!-- ------------Form-------------- -->
+        <div class="form" id="form">
+            <form>
+                <h1>Find events near you</h1>
+                <div class="form-input-area">
+
+                    <div class="form-input-area__location">
+                        <label>Location</label>
+                        <input type="text" placeholder="Enter a name, place or postcode" required>
+                    </div>
+                    <div class="form-input-area__from">
+                        <label>From</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-input-area__to">
+                        <label>To</label>
+                        <input type="date" required>
+                    </div>
+
+                </div>
+                <div class="form-button-area">
+                    <button id="form-button-area__search">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button id="form_button-area__nearme">Near me <i class="fa-solid fa-map-pin"></i></button>
+                </div>
+            </form>
+        </div>
+        <!-- -------------------------- -->
+
+        <!-- -------------Events------------- -->
+        <div class="events-information" id="events">
+            <div class="events">
+                <img src="./images/beano.jpg" class="event-content__image">
+                <div class="event-content-right">
+                    <h1 class="event-content__heading">HALLOWEEN HALF-TERM FUN</h1>
+                    <p class="event-content__paragraph">Follow Dennis, Gnasher and friends to solve creepy clues on fun
+                        family quests around the grounds
+                        of over 20 English
+                        Heritage sites around the country this half term.</p>
+                    <p class="event-content__paragraph"> Meet costumed performers to hear tall tales of the strange, the
+                        supernatural and the downright
+                        silly. With so much
+                        spooky stuff to see and do, it’s a phantomtastic, great-value day out for families – and tickets
+                        are even cheaper if you
+                        book in advance.</p>
+                    <button class="event-content__button">Book now and save <i
+                            class="fa-solid fa-bookmark"></i></button>
+                </div>
+            </div>
+            <div class="events">
+                <div class="event-content-left">
+                    <h1 class="event-content__heading">SPOOKY WOODLAND WALKS
+                    </h1>
+                    <p class="event-content__paragraph">As the days shorten and the evenings grow darker, join our
+                        ghost-hunting storytellers on a family-friendly walk through
+                        the shadows of our sites.
+                        Heritage sites around the country this half term.</p>
+                    <p class="event-content__paragraph">
+                        With well-told tales full of spooky and strange goings-on, these Halloween walks are sure to get
+                        you into the spirit of
+                        the season.
+                    </p>
+                    <button class="event-content__button">Book now and save <i
+                            class="fa-solid fa-bookmark"></i></button>
+                </div>
+                <img src="./images/woodland-walks.png" class="event-content__image">
+            </div>
+            <div class="events">
+                <img src="./images/ghost-tours.png" class="event-content__image">
+                <div class="event-content-right">
+                    <h1 class="event-content__heading">GHOST TOURS</h1>
+                    <p class="event-content__paragraph">Do you dare explore our sites in the dark this Halloween? Join
+                        our storytellers as they guide you on a journey through
+                        the past with tales of ghosts, supernatural sightings and horrors from history. These tours are
+                        suitable for those aged
+                        16+. Don’t forget to bring a torch – things are going to get dark…</p>
+
+                    <button class="event-content__button">Book now and save <i
+                            class="fa-solid fa-bookmark"></i></button>
+                </div>
+            </div>
+            <div class="events">
+                <div class="event-content-left">
+                    <h1 class="event-content__heading">DON'T MISS: ILLUMINATED WHITBY</h1>
+                    <p class="event-content__paragraph">As the days shorten and the evenings grow darker, join our
+                        ghost-hunting
+                        storytellers on a family-friendly walk through
+                        the shadows of our sites.
+                        Heritage sites around the country this half term.</p>
+                    <p class="event-content__paragraph">
+                        With well-told tales full of spooky and strange goings-on, these Halloween walks are sure to get
+                        you into
+                        the spirit of
+                        the season.
+                    </p>
+                    <button class="event-content__button">Book now and save <i
+                            class="fa-solid fa-bookmark"></i></button>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HT_MCFSHxrs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- -------------------------- -->
+    </div>
+    <!-- -----------Darkmode button--------------- -->
+    <div class="fixed-dark-mode-button">
+        <button id="fixed-dark-mode-button__button" onclick="toggle()"><i class="fa-solid fa-moon fa-2x"></i></button>
+    </div>
+    <!-- -------------------------- -->
+
+    <!-- -----------Footer--------------- -->
+    <footer id="about-us">
+        <div class="footer">
+
+            <div class="footer__content">
+                <h1 class="footer__content__heading">Contact</h1>
+                <div class="footer__content__list">
+                    <h4><i class="fa-solid fa-envelope fa-fw"></i>
+                        thanhhafmcvn@outlook.com</h4>
+                    <h4><i class="fa-solid fa-phone fa-fw"></i> ( +84 ) 982241335</h4>
+                    <h4><i class="fa-solid fa-house fa-fw"></i> Le Van Chi Street, Thu Duc City, Ho Chi Minh City, VietNam
+                    </h4>
+                </div>
+            </div>
+            <div class="footer__content">
+                <h1 class="footer__content__heading">Social media accounts</h1>
+                <div class="footer__content__list">
+                    <h4><a href="https://facebook.com/thanhhafmcvn"><i class="fa-brands fa-facebook fa-fw"></i> Facebook</a>
+                    </h4>
+                    <h4><a href="https://github.com/mlucastero"><i class="fa-brands fa-github fa-fw"></i> Github</a></h4>
+                    <h4><a href="https://www.instagram.com/fmc.thanhha/"><i class="fa-brands fa-instagram fa-fw"></i> Instagram</a></h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- -------------------------- -->
+</body>
+
+</html>
